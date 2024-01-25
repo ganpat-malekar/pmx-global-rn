@@ -1,0 +1,37 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@paymate/authentication": ["libraries/authentication/src/index.js"],
+      "@paymate/common/apimiddleware": ["libraries/common/src/apimiddleware"],
+      "@paymate/common/assets/*": ["libraries/common/src/assets/images/*"],
+      "@paymate/common/components": ["libraries/common/src/components"],
+      "@paymate/common/config": ["libraries/common/src/config"],
+      "@paymate/common/helpers": ["libraries/common/src/helpers"],
+      "@paymate/common/hooks": ["libraries/common/src/hooks"],
+      "@paymate/common/store": ["libraries/common/src/store"],
+      "@paymate/common/store/actions": ["libraries/common/src/store/actions"],
+      "@paymate/common/style": ["libraries/common/src/style"],
+      "@paymate/contact-management": [
+        "libraries/contact-management/src/index.js"
+      ],
+      "@paymate/dashboards": ["libraries/dashboards/src/index.js"],
+      "@paymate/kyc-management": ["libraries/kyc-management/src/index.js"],
+      "@paymate/user-management": ["libraries/user-management/src/index.js"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

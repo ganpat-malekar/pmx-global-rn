@@ -1,0 +1,456 @@
+html,
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
+  min-height: 100vh;
+}
+a,
+a:hover {
+  color: #075065;
+  text-decoration: none;
+}
+
+.recharts-tooltip-wrapper {
+  z-index: 13000;
+}
+
+.ProfileSection .MuiAccordionSummary-content {
+  margin-left: 10px !important;
+}
+
+.WebHookSection .MuiAccordionSummary-root {
+  min-height: 0px !important;
+  height: 0px;
+}
+
+.Invisible-select .MuiInputBase-root {
+  border: none;
+}
+
+.Invisible-select .MuiInputBase-input {
+  padding: 0px 0px 0px 0px !important;
+}
+
+.Invisible-select .MuiSelect-select.MuiSelect-select {
+  padding-right: 24px !important;
+  font-size: 20px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.Invisible-select .MuiInput-underline:hover:not(.Mui-disabled):before {
+  border-bottom: 0px;
+}
+
+.Invisible-select .MuiInput-underline:before,
+.Invisible-select .MuiInput-underline:after {
+  border: none;
+}
+
+.Invisible-select .MuiSelect-root {
+  border: none;
+}
+
+.MuiMenu-paper ul li {
+  opacity: 1 !important;
+}
+
+.ProfileSection .MuiIconButton-root {
+  display: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+label {
+  letter-spacing: 0.5px !important;
+}
+
+.Pagination-table-footer {
+  display: flex !important;
+  padding-top: 20px !important;
+}
+
+.Table-footer-left {
+  display: inline-flex;
+}
+
+.Table-footer-left h6 {
+  margin: auto;
+  color: #4a4a4a;
+  font-size: 12px;
+  letter-spacing: 0;
+  margin-right: 10px;
+}
+
+.Table-footer-left h5 {
+  margin: auto;
+  color: #1a1a1a;
+  font-size: 14px;
+  letter-spacing: 0;
+  margin-left: 15px;
+}
+
+.Pagination-table-footer div:first-child {
+  flex: 1;
+}
+
+.pagination {
+  list-style: none;
+  display: inline-flex;
+  padding-left: 0;
+}
+
+.pagination a {
+  font-size: 14px;
+}
+
+.pagination .disabled a {
+  color: #cacaca;
+}
+
+.pagination li {
+  margin: 0px 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.pagination li svg {
+  margin-top: 5px;
+  font-size: 28px;
+}
+
+.pagination .activePage a {
+  border: 1px solid #075065;
+  /* border-radius: 50%; */
+  width: 33px;
+  height: 33px;
+  text-align: center;
+  line-height: 32px;
+  text-decoration: none;
+}
+
+.srv-validation-message {
+  color: #d50000;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  line-height: 16px;
+  margin-left: 0px;
+  font-weight: 400;
+}
+
+.alert {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin: 1rem 0rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.alert-success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+.dropzone {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 35px 20px;
+  border-width: 2px;
+  border-radius: 2px;
+  border-color: #cbc5c5;
+  border-style: dashed;
+  background-color: #fafafa;
+  color: #adadad;
+  outline: none;
+  transition: border 0.24s ease-in-out;
+}
+.dropzone p {
+  margin: 0;
+  padding-bottom: 1%;
+}
+.dropzone:focus {
+  border-color: #17b7e9;
+}
+.file-chips {
+  margin: 2% 0 0 0;
+}
+
+.dropzone svg {
+  color: #c3c0c0;
+}
+
+.dropzone-text {
+  color: #c3c0c0;
+}
+.labels1 {
+  margin-left: 0px !important;
+  margin-right: 52px !important;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #e4e4e4;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #e4e4e4;
+}
+
+.sweet-loading {
+  display: block;
+  position: fixed;
+  z-index: 9999;
+  background: rgba(44, 52, 59);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 2s linear;
+}
+
+.sweet-loading .css-0 {
+  position: fixed;
+  top: 40%;
+  left: calc(50% - 35px);
+  z-index: 99999;
+}
+
+.Toastify__toast--success {
+  background-color: #4caf50 !important;
+}
+
+.Toastify__toast--warning {
+  background: #ff9800 !important;
+}
+
+.Toastify__toast {
+  min-height: 0 !important;
+  padding: 0 !important;
+  border-radius: 4px !important;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12) !important;
+}
+
+.Toastify__close-button {
+  padding: 16px !important;
+  font-weight: 800 !important;
+}
+
+.Toastify__toast-body {
+  margin-left: 5% !important;
+  color: #fff;
+}
+
+.sweet-alert button.cancel {
+  background-color: #1ac6ff !important;
+}
+.sweet-alert button.confirm {
+  background-color: #2c343b !important;
+}
+
+.titleDash {
+  color: #075065;
+  font-weight: bold;
+}
+
+/*LOGIN SCREEN CSS*/
+.slick-slider,
+.slick-track,
+.slick-list {
+  /*height: 100%;*/
+}
+
+.slick-dots {
+  bottom: 35px;
+  left: 17px;
+  width: 100%;
+  margin: 0;
+  list-style: none;
+  text-align: left;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: #fff;
+}
+
+.slick-dots li button:before {
+  font-size: 13px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 31px;
+  height: 31px;
+  content: "•";
+  text-align: center;
+  opacity: 0.25;
+  color: #000;
+}
+
+.Login-card svg {
+  color: #075065;
+}
+.Form-Action-Center {
+  display: flex;
+}
+.Form-Action-Center label {
+  flex: 1;
+}
+.Form-Action-Center a {
+  margin-top: 10px;
+  color: #075065;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 20p;
+  text-decoration: underline;
+}
+.Login-copyright {
+  color: #797979;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 20px;
+  text-align: center;
+}
+.form-backlink {
+  margin: 8% 0 2% 0;
+}
+.form-backlink a {
+  display: inline-flex;
+  color: #075065;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 20p;
+}
+.form-backlink svg {
+  margin-top: -1px;
+  margin-right: 5px;
+}
+.Resend-backlink p {
+  color: #828c96;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 22px;
+  text-align: center;
+}
+.Resend-backlink {
+  margin: 10% 0 -1% 0;
+}
+.Resend-backlink span {
+  color: #0047cc;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 22px;
+  text-align: center;
+}
+/*LOGIN SCREEN CSS*/
+
+/*OTP INPUT STYLE*/
+.input-otp-main .input-otp:not(:last-child) {
+  display: block !important;
+  flex: 1;
+}
+.otp-input {
+  width: 2.5em !important;
+  height: 2em !important;
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.23) !important;
+  font-size: 20px;
+}
+.otp-input-focus {
+  outline: none;
+  border-bottom: 2px solid #075065 !important;
+}
+/*OTP INPUT STYLE*/
+
+#tbMain {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+#tbMain td,
+#tbMain th {
+  padding: 8px;
+}
+
+.CheckoutPage .slick-slide {
+  /*width: 340px !important;*/
+}
+
+.CheckoutPage .slick-prev {
+  left: 0px;
+  z-index: 100;
+  width: auto;
+  height: auto;
+}
+
+.CheckoutPage .slick-next {
+  right: 0px;
+  z-index: 100;
+  width: auto;
+  height: auto;
+}
+
+.CheckoutPage .slick-slider > button {
+  position: absolute;
+  background-color: #fff;
+  box-shadow: rgb(0 0 0 / 20%) 0px 7px 29px 0px;
+}
+
+.CheckoutPage .slick-next:before,
+.slick-prev:before {
+  content: none;
+}
+
+.CheckoutPage .slick-next:focus,
+.CheckoutPage .slick-next:hover,
+.CheckoutPage .slick-prev:focus,
+.CheckoutPage .slick-prev:hover {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+@media screen and (min-width: 2200px) {
+  #heightFlex {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+  }
+}
